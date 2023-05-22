@@ -36,6 +36,7 @@ __Languages__
 
 ## Contact
 Email me! : kcrystalfg7@g.skku.edu
+\
 Github Link: https://github.com/cudeb
 
 # Thank You For Visiting!
