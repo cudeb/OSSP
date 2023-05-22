@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About Me
-#tags: [about, Jekyll, theme, moon]
 date: 2023-05-22
 comments: false
 ---
@@ -12,6 +11,8 @@ comments: false
 
 ## Introduction
 Hello! I'm Joung Hoon Kim. I'm junior student majoring [CS in SKKU](https://cs.skku.edu/ko/)
+\
+I'm interested in various field of computer science.
 
 ## Skills
 __Languages__
@@ -26,14 +27,16 @@ __Languages__
 + graduated Bunpo Elementary School, Busan
 + graduated YongHo Middle School, Busan
 + graduated Daeyeon High School, Busan
++ junior in SKKU, Suwon, majoring CS(Software)
 
 ## Achievements and Certifications
 
 + MOS master
-+ Not so much now... but trying...!!
++ Not so much... but trying...!!
 
 ## Contact
 Email me! : kcrystalfg7@g.skku.edu
+Github Link: https://github.com/cudeb
 
 # Thank You For Visiting!
 <!-- ## Features
