@@ -14,6 +14,11 @@ jobs:
       - name: echo test
         run: |
           echo "This is a test for echo."
-      - name: ls text
+      - name: ls test
         run: |
           ls -al ${{github.workspace}}
+      - name: cd test
+        run: |
+          cd ${{github.workspace}}/about/
+      - name: cat test
+          cat ./index.md
