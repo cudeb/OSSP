@@ -5,7 +5,7 @@ on:
     branches: ["master"]
     
 jobs:
-  build:
+  linux-command-test:
     runs-on: ubuntu-latest
     
     steps:
