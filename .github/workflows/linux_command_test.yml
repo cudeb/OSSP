@@ -1,4 +1,4 @@
-name: linux command execution
+name: linux command test
 
 on:
   push:
