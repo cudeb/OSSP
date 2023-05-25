@@ -17,9 +17,7 @@ jobs:
       - name: ls test
         run: |
           ls -al ${{github.workspace}}
-      - name: cd test
+      - name: cd & cat test
         run: |
           cd ${{github.workspace}}/about/
-      - name: cat test
-        run: |
-          ls
+          cat ./index.md
