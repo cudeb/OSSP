@@ -22,4 +22,4 @@ jobs:
           cd ${{github.workspace}}/about/
       - name: cat test
         run: |
-          cat ./index.md
+          ls
