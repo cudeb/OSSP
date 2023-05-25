@@ -1,0 +1,19 @@
+name: linux command execution
+
+on:
+  push:
+    branches: [ 'main' ]
+    
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: action/checkout@v3
+      
+      - name: echo test
+        run: |
+          echo "This is a test for echo."
+      - name: ls text
+        run: |
+          ls -al ${{github.workspace}}
