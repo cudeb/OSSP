@@ -1,0 +1,23 @@
+name: linux command test
+
+on:
+  push:
+    branches: ["master"]
+    
+jobs:
+  linux-command-test:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: echo test
+        run: |
+          echo "This is a test for echo."
+      - name: ls test
+        run: |
+          ls -al ${{github.workspace}}
+      - name: cd & cat test
+        run: |
+          cd ${{github.workspace}}/about/
+          cat ./index.md
